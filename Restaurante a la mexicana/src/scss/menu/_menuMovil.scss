@@ -1,0 +1,50 @@
+@use '../base/variables' as v;
+
+@use "../base/colorPalette" as c;
+@use '../base/mixins' as m;
+
+.mobile{
+   
+    @include m.desktop {
+        display: none; 
+         }
+
+
+    &__logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__menu{
+        width: 3rem;
+        cursor: pointer;
+    }
+
+ 
+    &__icon{
+        width: 5rem;
+    }
+    &__img{
+        width: 3rem;
+    }
+
+    &__icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+    &__navigation{
+        
+  text-align: center;
+  padding: 2rem 0;
+}
+&__navigation--modifier{
+    display: none;
+}
+
+&__link--modifier{
+    margin-bottom: 2rem;
+}
+}

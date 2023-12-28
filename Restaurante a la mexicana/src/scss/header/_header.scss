@@ -1,0 +1,13 @@
+@use '../base/variables' as v;
+
+@use "../base/colorPalette" as c;
+@use '../base/mixins' as m;
+
+.header{
+    background-color: c.$whiteColor;
+box-shadow: 1rem 1rem 1rem 1rem rgb(169 169 169 / 42%);
+padding: 2rem 0;
+
+
+}
+

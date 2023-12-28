@@ -1,0 +1,24 @@
+@use "variables" as v;
+@use "colorPalette" as c;
+@use "mixins" as m;
+
+.container{
+    width:90%;
+    margin: 0 auto;
+    max-width: 120rem;
+}
+
+.separation{
+    margin-top: 10rem;
+}
+
+.click{
+    font-size: 1.6rem;
+    color: c.$blackColor;
+}
+.active{
+    background-color: c.$mainColor;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: c.$whiteColor;
+}
